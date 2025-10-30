@@ -1,0 +1,18 @@
+Question
+
+1.4) Define a base class Person with attributes name and age.
+  Create a subclass Employee that inherits from Person and adds attributes like employeelD and salary.
+  Use the super keyword to initialize the Person attributes in the Employee constructor.
+
+
+Output
+
+NAME: Alex
+AGE: 24
+EMPLOYEE ID: 142
+SALARY: 65000.0
+
+NAME: Sam
+AGE: 28
+EMPLOYEE ID: 230
+SALARY: 85000.0
