@@ -1,0 +1,77 @@
+Question
+
+1. Design a Java program that uses OOP principles to model the Book .Create two classes: Book and Library. The Book class should have attributes such as bookID, title, author, and isAvailable. The Library class should include an array to store book objects.
+2. Provide methods to add books , remove book search books (using id) and display books. Write a Java program that demonstrates the use of these classes and methods by allowing the user to interact with the library system.
+
+
+Output
+
+Library Management System:
+1. Add Book
+2. Remove Book
+3. Search Book
+4. Display All Books
+5. Exit
+Enter your choice: 4
+Library is empty.
+
+Library Management System:
+1. Add Book
+2. Remove Book
+3. Search Book
+4. Display All Books
+5. Exit
+Enter your choice: 1
+Enter Book ID: 123
+Enter Title: English
+Enter Author: ABC
+Is Available (true/false): true
+Book added successfully!
+
+Library Management System:
+1. Add Book
+2. Remove Book
+3. Search Book
+4. Display All Books
+5. Exit
+Enter your choice: 4
+List of Books in Library:
+Book ID: 123
+Title: English
+Author: ABC
+Available: Yes
+
+
+Library Management System:
+1. Add Book
+2. Remove Book
+3. Search Book
+4. Display All Books
+5. Exit
+Enter your choice: 3
+Enter Book ID to search: 123
+Book found:
+Book ID: 123
+Title: English
+Author: ABC
+Available: Yes
+
+
+Library Management System:
+1. Add Book
+2. Remove Book
+3. Search Book
+4. Display All Books
+5. Exit
+Enter your choice: 2
+Enter Book ID to remove: 123
+Book removed successfully!
+
+Library Management System:
+1. Add Book
+2. Remove Book
+3. Search Book
+4. Display All Books
+5. Exit
+Enter your choice: 5
+Exiting Library System. Goodbye!
