@@ -1,0 +1,23 @@
+Question
+
+Q2. Create a class Voter(voterld, name, age) with parameterized constructor. The parameterized constructor should throw a checked/Unchecked exception if age is less than 18. The message of exception is "invalid age for voter"
+
+
+Output
+
+Enter Voter ID: x123
+Enter Name: ABC
+Enter Age: 16
+
+Error: Invalid age for voter. Must be 18 or above.
+
+
+Enter Voter ID: A345
+Enter Name: ZYX
+Enter Age: 21
+
+Voter is Eligible to Vote.
+Voter Details:
+Voter ID : A345
+Name : ZYX
+Age  : 21

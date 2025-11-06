@@ -1,0 +1,35 @@
+Question
+
+Q1. Ramesh is developing a student management system for a university. In this system, you have a Student class to represent student information. You are asked to help Ramesh to handle exception which can be occurred into program according to following Scenarios:
+class Student with attributes roll no, name, age and course. Initialize values through parameterized constructors.
+    If the age of the student is not between 15 and 21l then generate a user defined exception "AgeNot WithinRangeException".
+    If a name contains numbers or special symbols, raise exception "NameNotValidException". Define the two exception classes.
+
+
+Output
+
+Enter Roll No: 123
+Enter Name: abc
+Enter Age: 12
+Enter Course: CS
+Error: Age not within range (15–21).
+
+
+Enter Roll No: 321
+Enter Name: Abc#
+Enter Age: 20
+Enter Course: CS
+Error: Name not valid. Only alphabets allowed.
+
+
+
+Enter Roll No: 4321
+Enter Name: ABCD EFG
+Enter Age: 21
+Enter Course: CS
+
+Student Details:
+Enter Roll No: 4321
+Enter Name: ABCD EFG
+Enter Age: 21
+Enter Course: CS

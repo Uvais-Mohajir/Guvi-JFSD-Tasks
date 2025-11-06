@@ -1,0 +1,88 @@
+Question
+
+Q4. Create a HashMap where keys are student names (strings) and values are their corresponding grades (integers). Create methods to add a new student, remove a student, and Display up a student's grade by name.
+
+
+Output
+
+Student Grades Menu
+1. Add Student
+2. Remove Student
+3. Display Student Grade
+4. Display All Students
+5. Exit
+Enter your choice: 4
+No student records available.
+
+Student Grades Menu
+1. Add Student
+2. Remove Student
+3. Display Student Grade
+4. Display All Students
+5. Exit
+Enter your choice: 3
+Enter Student Name to Display Grade: Abc
+Student 'Abc' not found.
+
+Student Grades Menu
+1. Add Student
+2. Remove Student
+3. Display Student Grade
+4. Display All Students
+5. Exit
+Enter your choice: 1
+Enter Student Name: Abc
+Enter Grade: 123
+Student 'Abc' added with grade 123
+
+Student Grades Menu
+1. Add Student
+2. Remove Student
+3. Display Student Grade
+4. Display All Students
+5. Exit
+Enter your choice: 4
+
+All Student Grades:
+Abc : 123
+
+Student Grades Menu
+1. Add Student
+2. Remove Student
+3. Display Student Grade
+4. Display All Students
+5. Exit
+Enter your choice: 2
+Enter Student Name to Remove: abc
+Student 'abc' not found.
+
+Student Grades Menu
+1. Add Student
+2. Remove Student
+3. Display Student Grade
+4. Display All Students
+5. Exit
+Enter your choice: 3
+Enter Student Name to Display Grade: Abc
+Abc's Grade: 123
+
+Student Grades Menu
+1. Add Student
+2. Remove Student
+3. Display Student Grade
+4. Display All Students
+5. Exit
+Enter your choice: 2
+Enter Student Name to Remove: Abc
+Student 'Abc' removed successfully.
+
+Student Grades Menu
+1. Add Student
+2. Remove Student
+3. Display Student Grade
+4. Display All Students
+5. Exit
+Enter your choice: 5
+Exiting Program...
+
+Process finished with exit code 0

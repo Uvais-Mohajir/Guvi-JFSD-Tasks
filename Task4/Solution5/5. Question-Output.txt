@@ -1,0 +1,113 @@
+Question
+
+Q5. Use Collection Classes to store Integers .Create some methods for following functionalities
+    a. Include functions for pushing elements onto the stack.
+    b. popping elements from the stack.
+    c. checking if the stack is empty.
+
+
+Output
+
+Stack Operations Menu
+1. Push Element
+2. Pop Element
+3. Check if Stack is Empty
+4. Display Stack Elements
+5. Exit
+Enter your choice: 4
+Stack is empty. No elements to display.
+
+Stack Operations Menu
+1. Push Element
+2. Pop Element
+3. Check if Stack is Empty
+4. Display Stack Elements
+5. Exit
+Enter your choice: 3
+Stack is empty.
+
+Stack Operations Menu
+1. Push Element
+2. Pop Element
+3. Check if Stack is Empty
+4. Display Stack Elements
+5. Exit
+Enter your choice: 2
+Stack is empty. Nothing to pop.
+
+Stack Operations Menu
+1. Push Element
+2. Pop Element
+3. Check if Stack is Empty
+4. Display Stack Elements
+5. Exit
+Enter your choice: 1
+Enter an integer to push: 1
+1 pushed onto the stack.
+
+Stack Operations Menu
+1. Push Element
+2. Pop Element
+3. Check if Stack is Empty
+4. Display Stack Elements
+5. Exit
+Enter your choice: 1
+Enter an integer to push: 5
+5 pushed onto the stack.
+
+Stack Operations Menu
+1. Push Element
+2. Pop Element
+3. Check if Stack is Empty
+4. Display Stack Elements
+5. Exit
+Enter your choice: 1
+Enter an integer to push: 6
+6 pushed onto the stack.
+
+Stack Operations Menu
+1. Push Element
+2. Pop Element
+3. Check if Stack is Empty
+4. Display Stack Elements
+5. Exit
+Enter your choice: 4
+Stack elements: [1, 5, 6]
+
+Stack Operations Menu
+1. Push Element
+2. Pop Element
+3. Check if Stack is Empty
+4. Display Stack Elements
+5. Exit
+Enter your choice: 3
+Stack is NOT empty. Elements: 3
+
+Stack Operations Menu
+1. Push Element
+2. Pop Element
+3. Check if Stack is Empty
+4. Display Stack Elements
+5. Exit
+Enter your choice: 2
+6 popped from the stack.
+
+Stack Operations Menu
+1. Push Element
+2. Pop Element
+3. Check if Stack is Empty
+4. Display Stack Elements
+5. Exit
+Enter your choice: 4
+Stack elements: [1, 5]
+
+Stack Operations Menu
+1. Push Element
+2. Pop Element
+3. Check if Stack is Empty
+4. Display Stack Elements
+5. Exit
+Enter your choice: 5
+Exiting program...
+
+Process finished with exit code 0
