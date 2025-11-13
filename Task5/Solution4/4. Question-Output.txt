@@ -1,0 +1,14 @@
+Question
+
+Q4. Rajesh has been given a task to create an app which takes the user's birthdate as input and calculates their age, you have to help him to build this app using the java.time.LocalDate class.
+    Input:
+        Enter your birthdate (yyyy-mm-dd): 1990-05-15
+    Output:
+        Your age is: 33 years, 4 months, and 13 days.
+
+
+Output
+
+Enter your Birth Date (YYYY-MM-DD): 2000-01-01
+
+Your Age is: 25 Years,10 months, and 23 days.

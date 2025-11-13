@@ -1,0 +1,8 @@
+Question
+
+Q2. Write a program to check whether the Strings in the List are empty or not and print the list having non-empty strings. If the given List is: List strings = Arrays.asList("abe","", "be'", "efg", "abcd","", "ikl");
+
+
+Output
+
+List with non-empty strings: [abe, be, efg, abcd, ikl]
