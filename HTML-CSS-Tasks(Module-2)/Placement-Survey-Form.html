@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Placement Survey Form | Survey Form Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="d-flex flex-column min-vh-100 bg-light">
+  <header class="bg-dark text-white py-4 shadow-sm mb-4">
+    <div class="container">
+      <h1 class="h4 fw-bold text-center mb-0">
+        <a href="index.html" class="text-white text-decoration-none">Survey Form Project</a>
+      </h1>
+    </div>
+  </header>
+
+  <!-- Main Form -->
+  <main class="container flex-grow-1">
+    <div class="form-container mx-auto mb-5">
+      <h2 class="text-center text-primary mb-4">Placement Survey Form</h2>
+
+      <form class="placement-form">
+
+        <div class="row g-3 mb-3">
+          <div class="col-12 col-md-6">
+            <label for="rollNo" class="form-label">Roll Number</label>
+            <input type="text" class="form-control" id="rollNo" placeholder="Enter your roll number" required>
+          </div>
+          <div class="col-12 col-md-6">
+            <label for="fullName" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+          </div>
+        </div>
+
+        <div class="row g-3 mb-3">
+          <div class="col-12 col-md-6">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="col-12 col-md-6">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+          </div>
+        </div>
+
+        <div class="row g-3 mb-3">
+          <div class="col-12 col-md-6">
+            <label for="course" class="form-label">Course / Program</label>
+            <input type="text" class="form-control" id="course" placeholder="Enter your course" required>
+          </div>
+          <div class="col-12 col-md-6">
+            <label for="year" class="form-label">Year of Study</label>
+            <select class="form-select" id="year" required>
+              <option value="">Select your year</option>
+              <option value="1">1st Year</option>
+              <option value="2">2nd Year</option>
+              <option value="3">3rd Year</option>
+              <option value="4">4th Year</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Are you interested in placements?</label>
+          <div class="d-flex flex-wrap gap-3 pt-1">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="placeInterest" id="placeYes" value="Yes" required>
+              <label class="form-check-label" for="placeYes">Yes</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="placeInterest" id="placeNo" value="No">
+              <label class="form-check-label" for="placeNo">No</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Already Selected via Placement / Off‑Campus?</label>
+          <div class="d-flex flex-wrap gap-3 pt-1">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="placementStatus" id="statusYes" value="Yes" required>
+              <label class="form-check-label" for="statusYes">Yes</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="placementStatus" id="statusNo" value="No">
+              <label class="form-check-label" for="statusNo">No</label>
+            </div>
+          </div>
+          <small class="text-muted d-block mt-1">If Yes-enter company name, CTC, & upload offer letter.</small>
+        </div>
+
+
+        <div class="row g-3 mb-3">
+          <div class="col-12 col-md-6">
+            <label for="companyName" class="form-label">Company Name</label>
+            <input type="text" class="form-control" id="companyName" placeholder="Enter company name">
+          </div>
+          <div class="col-12 col-md-6">
+            <label for="ctc" class="form-label">CTC (in LPA)</label>
+            <input type="number" class="form-control" id="ctc" placeholder="Enter CTC">
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Internship Experience</label>
+          <small class="text-muted d-block">If not placed, describe your internship.</small>
+          <input type="text" class="form-control mt-2" placeholder="Internship company / organization name">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Describe your Internship Experience</label>
+          <input type="text" class="form-control mt-2" placeholder="Describe your internship experience">
+        </div>
+
+        <div class="row g-3 mb-3">
+          <div class="col-12 col-md-6">
+          <label class="form-label">Skills</label>
+          <input type="text" class="form-control mt-2" placeholder="Skills (e.g., Java, Python)" required>
+          </div>
+          <div class="col-12 col-md-6">
+          <label class="form-label">Certificates</label>
+          <input type="text" class="form-control mt-2" placeholder="Certificates (if any)">
+          <small class="text-muted d-block">If no internship, fill this section.</small>
+        </div>
+
+        <div class="mb-4">
+          <label for="resume" class="form-label">Upload Resume / Offer Letter</label>
+          <input type="file" class="form-control" id="resume" accept=".pdf,.doc,.docx">
+          <small class="text-muted d-block mt-1">If selected, upload offer letter; otherwise, upload your resume.</small>
+        </div>
+
+        <div class="d-flex flex-column flex-md-row gap-3">
+          <button type="submit" class="btn btn-primary flex-fill">Submit Survey</button>
+          <a href="index.html" class="btn btn-secondary flex-fill">Back to Home</a>
+        </div>
+
+      </form>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-auto">
+    <div class="container">
+      <p class="mb-2">Survey Form Project | Created by Uvais</p>
+      <div class="d-flex justify-content-center gap-3">
+        <a href="https://www.facebook.com" target="_blank" class="text-white fs-4"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com" target="_blank" class="text-white fs-4"><i class="bi bi-instagram"></i></a>
+        <a href="https://x.com/" target="_blank" class="text-white fs-4"><i class="bi bi-twitter"></i></a>
+        <a href="https://google.com" target="_blank" class="text-white fs-4"><i class="bi bi-google"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
